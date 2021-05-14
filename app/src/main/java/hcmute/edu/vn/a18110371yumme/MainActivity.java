@@ -38,9 +38,11 @@ public class MainActivity extends AppCompatActivity {
         slogan.setAnimation(botAnimation);
         hcmute.setAnimation(botAnimation);
 
-        new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable()
+        {
             @Override
-            public void run() {
+            public void run()
+            {
                 Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
                 finish();
