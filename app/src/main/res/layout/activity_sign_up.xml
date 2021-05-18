@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/slogan"
-        android:layout_width="333dp"
+        android:layout_width="332dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/appName"
         android:layout_marginLeft="20dp"
