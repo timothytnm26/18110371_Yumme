@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "267719583800",
+    "project_id": "ministop-18110371",
+    "storage_bucket": "ministop-18110371.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267719583800:android:f2102f2953e1fc5e6d9ecd",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.a18110371yumme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267719583800-namljjf6ktcpninkv0p8qp9t9p9fu82d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALRcEtNN2kX97d2yqDh4nwemhVCfZx-oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267719583800-namljjf6ktcpninkv0p8qp9t9p9fu82d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

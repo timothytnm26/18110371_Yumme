@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:backgroundTint="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="2dp">
+
+                            <ImageView
+                                android:id="@+id/ivkhuyenmai"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/icon_discount"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/place_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New discount"
+                                android:layout_marginRight="50dp"
+                                android:textSize="18sp"
+                                android:textColor="@color/avocado" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/ic_location"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/icon_gift"
+                                    android:tint="@color/red"/>
+
+                                <TextView
+                                    android:id="@+id/place_location"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sale off 20-25% for new Store"
+                                    android:textColor="@color/red"
+                                    android:textSize="15dp"
+                                    android:layout_marginLeft="5sp" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_alignParentBottom="true"
+                                android:gravity="center_vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/ic_rating"
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp"
+                                        android:src="@drawable/icon_star"
+                                        android:tint="@color/yellow" />
+
+                                    <TextView
+                                        android:id="@+id/place_rating"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5sp"
+                                        android:text="Number: 1"
+                                        android:textColor="@color/avocado"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/lnl_restaurant"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@drawable/buttonbg"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/place_delivery"
+                                        android:layout_width="31dp"
+                                        android:layout_height="20dp"
+                                        android:text="Use"
+                                        android:gravity="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lnl_favorite"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentRight="true">
+
+                        <ImageView
+                            android:id="@+id/ic_favorite"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/icon_star0"
+                            android:tint="@color/avocado"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_marginBottom="5dp"-->
+    <!--android:layout_weight="1"-->
+    <!--app:cardCornerRadius="3dp"-->
+    <!--app:cardElevation="2dp">-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:layout_weight="6">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/product_name"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:text="Product Name"-->
+    <!--android:textColor="@color/grey_900" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/product_description"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Product Description"-->
+    <!--android:textColor="@color/grey_900"-->
+    <!--android:layout_below="@id/product_name"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/product_value"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="R$: 12,00"-->
+    <!--android:textColor="@color/grey_900"-->
+    <!--android:layout_above="@id/product_restaurant"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/product_restaurant"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Product Restaurant"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:textColor="@color/grey_80"/>-->
+
+    <!--</RelativeLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+
+
+    <!--</android.support.v7.widget.CardView>-->
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icon_store"
+        android:enabled="true"
+        android:icon="@drawable/icon_store"
+        android:title="Stores"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/icon_customers"
+        android:enabled="true"
+        android:icon="@drawable/icon_account"
+        android:title="Customers"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/icon_goods_type"
+        android:enabled="true"
+        android:icon="@drawable/icon_goods"
+        android:title="Goods type"
+        app:showAsAction="always" />
+
+</menu>

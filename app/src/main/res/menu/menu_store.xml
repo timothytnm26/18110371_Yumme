@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/icon_home"
+        android:title="Homepage"
+        app:showAsAction="always"
+         />
+    <item
+        app:showAsAction="always"
+        android:id="@+id/Activity"
+        android:icon="@drawable/icon_activity"
+        android:title="Activities"
+         />
+    <item
+        app:showAsAction="always"
+        android:id="@+id/Goods"
+        android:icon="@drawable/icon_goods"
+        android:title="Goods"
+         />
+    <item
+        app:showAsAction="always"
+        android:id="@+id/Account"
+        android:icon="@drawable/icon_account"
+        android:title="Account"
+
+        />
+
+</menu>

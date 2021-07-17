@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="Homepage"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ic_star"
+        android:enabled="true"
+        android:icon="@drawable/icon_star"
+        android:title="Like"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ic_bill"
+        android:enabled="true"
+        android:icon="@drawable/icon_bill"
+        android:title="Orders"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ic_cart"
+        android:icon="@drawable/icon_cart"
+        android:title="Cart"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ic_setting"
+        android:enabled="true"
+        android:icon="@drawable/icon_setting"
+        android:title="Setting"
+        app:showAsAction="always" />
+</menu>
